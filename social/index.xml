@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Socials on Trinity Western University International Connect</title>
+    <link>https://sharkpan.github.io/social/</link>
+    <description>Recent content in Socials on Trinity Western University International Connect</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <atom:link href="https://sharkpan.github.io/social/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Clubs</title>
+      <link>https://sharkpan.github.io/social/clubs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sharkpan.github.io/social/clubs/</guid>
+      <description>&lt;!DOCTYPE html&gt;&#xD;Language&#xD;Fitness &amp;amp; Recreation&#xD;Recreation Programs&#xD;Intramurals&#xD;Intramurals are a great way to get out and play a sport you enjoy and an opportunity to meet new friends.</description>
+    </item>
+    <item>
+      <title>Not Found</title>
+      <link>https://sharkpan.github.io/social/event/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sharkpan.github.io/social/event/</guid>
+      <description>&lt;!DOCTYPE html&gt;&#xD;School Life&#xD;Site is under construction&#xD;We are sorry.</description>
+    </item>
+    <item>
+      <title>Pomodoro Timer</title>
+      <link>https://sharkpan.github.io/social/pomodoro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sharkpan.github.io/social/pomodoro/</guid>
+      <description>&lt;!DOCTYPE html&gt; Pomodoro Timer pomodoro short break long break Click a mode to get started</description>
+    </item>
+    <item>
+      <title>To Do List</title>
+      <link>https://sharkpan.github.io/social/todolist/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sharkpan.github.io/social/todolist/</guid>
+      <description> &lt;!DOCTYPE html&gt; TO-DOIT Todo List Filter All Pending Completed Delete All Task Due Date Status Actions Go Back cupcake dark light bumblebee synthwave halloween fantasy dracula aqua luxury night </description>
+    </item>
+  </channel>
+</rss>

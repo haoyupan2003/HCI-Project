@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <title>To Do List</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description"
+    content="Manage your tasks!">
+  
+  <meta name="author" content="International Student Helper">
+  
+  
+  <meta name="theme-name" content="educenter-hugo" />
+  
+  <meta name="generator" content="Hugo 0.124.1">
+  <!-- multilingual SEO optimizations -->
+  
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://sharkpan.github.io/plugins/bootstrap/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="https://sharkpan.github.io/plugins/slick/slick.css">
+  
+  <link rel="stylesheet" href="https://sharkpan.github.io/plugins/animate/animate.css">
+  
+  <link rel="stylesheet" href="https://sharkpan.github.io/plugins/venobox/venobox.css">
+  
+  <link rel="stylesheet" href="https://sharkpan.github.io/plugins/themify-icons/themify-icons.css">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://sharkpan.github.io/scss/main.39a92863184ba4ea9990e2082bf7fd67c858263e3dd67f677d1add7a1c5de28ebcc1a01478d007a95bb116ce25df5a23961347c553b8891e649dbc716290c204.css" integrity="sha512-OakoYxhLpOqZkOIIK/f9Z8hYJj491n9nfRrdehxd4o68waAUeNAHqVuxFs4l31ojlhNHxVO4iR5knbxxYpDCBA==" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://sharkpan.github.io/images/favicon.png" type="image/x-icon">
+  <link rel="icon" href="https://sharkpan.github.io/images/favicon.png" type="image/x-icon">
+
+</head>
+<body>
+<!-- preloader start -->
+<div class="preloader">
+  
+  <img src="https://sharkpan.github.io/images/preloader.gif" alt="preloader">
+  
+</div>
+<!-- preloader end -->
+
+<header class="fixed-top header">
+  
+  
+  <div class="top-header py-2 bg-white">
+    <div class="container">
+      <div class="row no-gutters align-items-center">
+        <div class="col-lg-4 text-center text-lg-left">
+          <ul class="list-inline">
+            
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="https://www.facebook.com/trinitywestern"><i
+                  class="ti-facebook"></i></a></li>
+            
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="https://twitter.com/TrinityWestern"><i
+                  class="ti-twitter-alt"></i></a></li>
+            
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="https://www.instagram.com/trinitywestern"><i
+                  class="ti-instagram"></i></a></li>
+            
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="https://www.linkedin.com/school/trinity-western-university"><i
+                  class="ti-linkedin"></i></a></li>
+            
+          </ul>
+        </div>
+        <div class="col-lg-8 text-center text-lg-right">
+          <ul class="list-inline">
+            <li class="list-inline-item">
+              <a class="text-color mr-3" href="tel:&#43;1%20%28236%29%20862-8718"><strong>CALL : </strong> &#43;1 (236) 862-8718</a>
+            </li>
+            <li class="list-inline-item">
+              <a class="text-color" href="mailto:haoyu.pan@mytwu.ca"><strong>EMAIL : </strong> haoyu.pan@mytwu.ca</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+
+  
+  <div class="navigation w-100  top-hider ">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark p-0">
+        <a class="navbar-brand" href="/"><img class="img-fluid"
+            src="https://sharkpan.github.io/images/logo.png" alt="Trinity Western University International Connect"></a>
+        <button class="navbar-toggler rounded-0" type="button" data-toggle="collapse" data-target="#navigation"
+          aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse text-center" id="navigation">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/">Home</a>
+            </li>
+            
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://sharkpan.github.io/schoollife/">School Life</a>
+            </li>
+            
+            
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://sharkpan.github.io/jobbank/">Job Bank</a>
+            </li>
+            
+            
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">
+                Social
+              </a>
+              <div class="dropdown-menu">
+                
+                <a class="dropdown-item" href="https://sharkpan.github.io/social/clubs/">clubs</a>
+                
+                <a class="dropdown-item" href="https://sharkpan.github.io/social/event/">events</a>
+                
+                <a class="dropdown-item" href="https://sharkpan.github.io/social/pomodoro/">pomodoro timer</a>
+                
+                <a class="dropdown-item" href="https://sharkpan.github.io/social/todolist/">to-do list</a>
+                
+              </div>
+            </li>
+            
+            
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://sharkpan.github.io/language/">language</a>
+            </li>
+            
+            
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://sharkpan.github.io/contact/">Contact</a>
+            </li>
+            
+            
+          </ul>
+
+          
+          
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
+
+    
+<section class="page-title-section overlay" style="background-image: url('/images/backgrounds/page-title.jpg'),url('/images/backgrounds/page-title.jpg');" >
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <ul class="list-inline custom-breadcrumb">
+          <li class="list-inline-item h2"><a class="text-primary font-secondary" href="/">Home</a></li>
+          <li class="list-inline-item h5"><i class="ti-angle-right text-white"></i></li>
+          <li class="list-inline-item text-white h3 font-secondary">To Do List</li>
+        </ul>
+        <p class="text-lighten">Manage your tasks!</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+    
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" data-theme="bumblebee">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DOIT</title>
+
+    <!--- Tailwind CSS & Daisy UI CSS -->
+
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2/dist/tailwind.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.18.0/dist/full.css" rel="stylesheet" type="text/css" />
+
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        :root {
+            --color-primary: #5a78ff;
+            --color-secondary: #0957ff;
+        }
+
+        .page-body {
+            position: relative;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .author-text {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+
+        .container-1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin: 0 400px;
+            min-width: 640px;
+            max-width: 1000px;
+            background: rgba(255, 255, 255, 0.15);
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.3);
+            backdrop-filter: blur(3px);
+            -webkit-backdrop-filter: blur(3px);
+            border-radius: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            padding: 20px;
+        }
+
+        .container-1 header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            font-size: 30px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .alert-message {
+            width: 100%;
+            transition: all 0.3s ease;
+            transform: scale(0.9);
+        }
+
+        .alert-message.show {
+            display: block;
+            transform: scale(1);
+        }
+
+        .alert-message.hide {
+            display: none;
+        }
+
+        header .input-section {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+        }
+
+        .input-section input {
+            margin-right: 10px;
+            max-width: 100%;
+        }
+
+        .todos-filter {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+            margin-bottom: 10px;
+        }
+
+        .todos-list {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            min-height: 100%;
+            max-height: 54vh;
+            overflow-y: auto;
+            width: 100%;
+        }
+
+        .todos-list .todo-item {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            width: 100%;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+        }
+
+        .todo-item p {
+            margin-right: 10px;
+        }
+
+        .todo-item .todo-actions {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: end;
+            width: 100%;
+            height: 100%;
+        }
+
+        .todo-actions button:not(:last-child) {
+            margin-right: 10px;
+        }
+
+        .theme-switcher {
+            position: absolute;
+            top: 16px;
+            right: 16px;
+        }
+
+        .go-back-button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            outline: none;
+            color: #fff;
+            background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+            border: none;
+            border-radius: 5px;
+            box-shadow: 0 9px rgba(0, 0, 0, 0.1);
+            transition: all 0.2s ease-in-out;
+        }
+
+        .go-back-button:hover {
+            background-image: linear-gradient(to left, #6a11cb 0%, #2575fc 100%);
+            box-shadow: 0 12px rgba(0, 0, 0, 0.2);
+            transform: translateY(-2px);
+        }
+
+        .go-back-button:active {
+            background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+            box-shadow: 0 5px rgba(0, 0, 0, 0.2);
+            transform: translateY(2px);
+        }
+
+
+
+        /* Responsive */
+        @media only screen and (max-width: 530px) {
+            .container-1 {
+                margin: 0 20px;
+                max-width: 96%;
+                min-width: 96%;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <section-1 class="page-body">
+        <div class="container-1">
+            <header>
+                <h1>Todo List</h1>
+                <!-- Error message -->
+                <div class="alert-message"></div>
+                <div class="input-section">
+                    <input type="text" placeholder="Add a todo . . ."
+                        class="input input-bordered input-secondary w-full max-w-xs" />
+                    <input type="date" class="input input-bordered input-secondary w-full max-w-xs schedule-date" />
+                    <button class="btn btn-secondary add-task-button">
+                        <i class="bx bx-plus bx-sm"></i>
+                    </button>
+                </div>
+            </header>
+
+            <div class="todos-filter">
+                <div class="dropdown">
+                    <label tabindex="0" class="btn m-1">Filter</label>
+                    <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
+                        <li onclick="filterTodos('all')"><a>All</a></li>
+                        <li onclick="filterTodos('pending')"><a>Pending</a></li>
+                        <li onclick="filterTodos('completed')"><a>Completed</a></li>
+                    </ul>
+                </div>
+                <button class="btn btn-secondary delete-all-btn">
+                    Delete All
+                </button>
+            </div>
+
+            <table class="table w-full">
+                <thead>
+                    <tr>
+                        <th>Task</th>
+                        <th>Due Date</th>
+                        <th>Status</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody class="todos-list-body">
+                </tbody>
+            </table>
+
+        </div>
+
+        <!--Theme switcher-->
+        <div class="theme-switcher">
+            <div>
+                <button class="go-back-button" onclick="history.back()">Go Back</button>
+            </div>
+            <br>
+            <br>
+            <div class="dropdown dropdown-left">
+                <label tabindex="0" class="btn m-1">
+                    <i class='bx bxs-palette bx-sm'></i>
+                </label>
+                <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
+                    <li class="theme-item" theme="cupcake"><a>cupcake</a></li>
+                    <li class="theme-item" theme="dark"><a>dark</a></li>
+                    <li class="theme-item" theme="light"><a>light</a></li>
+                    <li class="theme-item" theme="bumblebee"><a>bumblebee</a></li>
+                    <li class="theme-item" theme="synthwave"><a>synthwave</a></li>
+                    <li class="theme-item" theme="halloween"><a>halloween</a></li>
+                    <li class="theme-item" theme="fantasy"><a>fantasy</a></li>
+                    <li class="theme-item" theme="dracula"><a>dracula</a></li>
+                    <li class="theme-item" theme="aqua"><a>aqua</a></li>
+                    <li class="theme-item" theme="luxury"><a>luxury</a></li>
+                    <li class="theme-item" theme="night"><a>night</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+
+    </section-1>
+
+
+    <!-- Javascripts -->
+    <script>
+        // Abstract class for TodoItemFormatter
+        class TodoItemFormatter {
+            formatTask(task) {
+                return task.length > 14 ? task.slice(0, 14) + "..." : task;
+            }
+
+            formatDueDate(dueDate) {
+                return dueDate || "No due date";
+            }
+
+            formatStatus(completed) {
+                return completed ? "Completed" : "Pending";
+            }
+        }
+
+        // Class responsible for managing Todo items
+        class TodoManager {
+            constructor(todoItemFormatter) {
+                this.todos = JSON.parse(localStorage.getItem("todos")) || [];
+                this.todoItemFormatter = todoItemFormatter;
+            }
+
+            addTodo(task, dueDate) {
+                const newTodo = {
+                    id: this.getRandomId(),
+                    task: this.todoItemFormatter.formatTask(task),
+                    dueDate: this.todoItemFormatter.formatDueDate(dueDate),
+                    completed: false,
+                    status: "pending",
+                };
+                this.todos.push(newTodo);
+                this.saveToLocalStorage();
+                return newTodo;
+            }
+
+            editTodo(id, updatedTask) {
+                const todo = this.todos.find((t) => t.id === id);
+                if (todo) {
+                    todo.task = updatedTask;
+                    this.saveToLocalStorage();
+                }
+                return todo;
+            }
+
+            deleteTodo(id) {
+                this.todos = this.todos.filter((todo) => todo.id !== id);
+                this.saveToLocalStorage();
+            }
+
+            toggleTodoStatus(id) {
+                const todo = this.todos.find((t) => t.id === id);
+                if (todo) {
+                    todo.completed = !todo.completed;
+                    this.saveToLocalStorage();
+                }
+            }
+
+            clearAllTodos() {
+                if (this.todos.length > 0) {
+                    this.todos = [];
+                    this.saveToLocalStorage();
+                }
+            }
+
+            filterTodos(status) {
+                switch (status) {
+                    case "all":
+                        return this.todos;
+                    case "pending":
+                        return this.todos.filter((todo) => !todo.completed);
+                    case "completed":
+                        return this.todos.filter((todo) => todo.completed);
+                    default:
+                        return [];
+                }
+            }
+
+            getRandomId() {
+                return (
+                    Math.random().toString(36).substring(2, 15) +
+                    Math.random().toString(36).substring(2, 15)
+                );
+            }
+
+            saveToLocalStorage() {
+                localStorage.setItem("todos", JSON.stringify(this.todos));
+            }
+        }
+
+        // Class responsible for managing the UI and handling events
+        class UIManager {
+            constructor(todoManager, todoItemFormatter) {
+                this.todoManager = todoManager;
+                this.todoItemFormatter = todoItemFormatter;
+                this.taskInput = document.querySelector("input");
+                this.dateInput = document.querySelector(".schedule-date");
+                this.addBtn = document.querySelector(".add-task-button");
+                this.todosListBody = document.querySelector(".todos-list-body");
+                this.alertMessage = document.querySelector(".alert-message");
+                this.deleteAllBtn = document.querySelector(".delete-all-btn");
+
+                this.addEventListeners();
+                this.showAllTodos();
+            }
+
+            addEventListeners() {
+                // Event listener for adding a new todo
+                this.addBtn.addEventListener("click", () => {
+                    this.handleAddTodo();
+                });
+
+                // Event listener for pressing Enter key in the task input
+                this.taskInput.addEventListener("keyup", (e) => {
+                    if (e.keyCode === 13 && this.taskInput.value.length > 0) {
+                        this.handleAddTodo();
+                    }
+                });
+
+                // Event listener for deleting all todos
+                this.deleteAllBtn.addEventListener("click", () => {
+                    this.handleClearAllTodos();
+                });
+
+                // Event listeners for filter buttons
+                const filterButtons = document.querySelectorAll(".todos-filter li");
+                filterButtons.forEach((button) => {
+                    button.addEventListener("click", () => {
+                        const status = button.textContent.toLowerCase();
+                        this.handleFilterTodos(status);
+                    });
+                });
+            }
+
+            handleAddTodo() {
+                const task = this.taskInput.value;
+                const dueDate = this.dateInput.value;
+                if (task === "") {
+                    this.showAlertMessage("Please enter a task", "error");
+                } else {
+                    const newTodo = this.todoManager.addTodo(task, dueDate);
+                    this.showAllTodos();
+                    this.taskInput.value = "";
+                    this.dateInput.value = "";
+                    this.showAlertMessage("Task added successfully", "success");
+                }
+            }
+
+            handleClearAllTodos() {
+                this.todoManager.clearAllTodos();
+                this.showAllTodos();
+                this.showAlertMessage("All todos cleared successfully", "success");
+            }
+
+            showAllTodos() {
+                const todos = this.todoManager.filterTodos("all");
+                this.displayTodos(todos);
+            }
+
+            displayTodos(todos) {
+
+                this.todosListBody.innerHTML = "";
+
+                if (todos.length === 0) {
+                    this.todosListBody.innerHTML = `<tr><td colspan="5" class="text-center">No task found</td></tr>`;
+                    return;
+                }
+
+                todos.forEach((todo) => {
+                    this.todosListBody.innerHTML += `
+          <tr class="todo-item" data-id="${todo.id}">
+            <td>${this.todoItemFormatter.formatTask(todo.task)}</td>
+            <td>${this.todoItemFormatter.formatDueDate(todo.dueDate)}</td>
+            <td>${this.todoItemFormatter.formatStatus(todo.completed)}</td>
+            <td>
+              <button class="btn btn-warning btn-sm" onclick="uiManager.handleEditTodo('${todo.id
+                        }')">
+                <i class="bx bx-edit-alt bx-bx-xs"></i>    
+              </button>
+              <button class="btn btn-success btn-sm" onclick="uiManager.handleToggleStatus('${todo.id
+                        }')">
+                <i class="bx bx-check bx-xs"></i>
+              </button>
+              <button class="btn btn-error btn-sm" onclick="uiManager.handleDeleteTodo('${todo.id
+                        }')">
+                <i class="bx bx-trash bx-xs"></i>
+              </button>
+            </td>
+          </tr>
+        `;
+                });
+            }
+
+
+
+            handleEditTodo(id) {
+                const todo = this.todoManager.todos.find((t) => t.id === id);
+                if (todo) {
+                    this.taskInput.value = todo.task;
+                    this.todoManager.deleteTodo(id);
+
+                    const handleUpdate = () => {
+                        this.addBtn.innerHTML = "<i class='bx bx-plus bx-sm'></i>";
+                        this.showAlertMessage("Todo updated successfully", "success");
+                        this.showAllTodos();
+                        this.addBtn.removeEventListener("click", handleUpdate);
+                    };
+
+                    this.addBtn.innerHTML = "<i class='bx bx-check bx-sm'></i>";
+                    this.addBtn.addEventListener("click", handleUpdate);
+                }
+            }
+
+
+            handleToggleStatus(id) {
+                this.todoManager.toggleTodoStatus(id);
+                this.showAllTodos();
+            }
+
+            handleDeleteTodo(id) {
+                this.todoManager.deleteTodo(id);
+                this.showAlertMessage("Todo deleted successfully", "success");
+                this.showAllTodos();
+            }
+
+
+            handleFilterTodos(status) {
+                const filteredTodos = this.todoManager.filterTodos(status);
+                this.displayTodos(filteredTodos);
+            }
+
+
+            showAlertMessage(message, type) {
+                const alertBox = `
+  <div class="alert alert-${type} shadow-lg mb-5 w-full">
+    <div>
+      <span>${message}</span>
+    </div>
+  </div>
+`;
+                this.alertMessage.innerHTML = alertBox;
+                this.alertMessage.classList.remove("hide");
+                this.alertMessage.classList.add("show");
+                setTimeout(() => {
+                    this.alertMessage.classList.remove("show");
+                    this.alertMessage.classList.add("hide");
+                }, 3000);
+            }
+        }
+
+        // Class responsible for managing the theme switcher
+        class ThemeSwitcher {
+            constructor(themes, html) {
+                this.themes = themes;
+                this.html = html;
+                this.init();
+            }
+
+            init() {
+                const theme = this.getThemeFromLocalStorage();
+                if (theme) {
+                    this.setTheme(theme);
+                }
+
+                this.addThemeEventListeners();
+            }
+
+            addThemeEventListeners() {
+                this.themes.forEach((theme) => {
+                    theme.addEventListener("click", () => {
+                        const themeName = theme.getAttribute("theme");
+                        this.setTheme(themeName);
+                        this.saveThemeToLocalStorage(themeName);
+                    });
+                });
+            }
+
+            setTheme(themeName) {
+                this.html.setAttribute("data-theme", themeName);
+            }
+
+            saveThemeToLocalStorage(themeName) {
+                localStorage.setItem("theme", themeName);
+            }
+
+            getThemeFromLocalStorage() {
+                return localStorage.getItem("theme");
+            }
+        }
+
+
+
+        // Instantiating the classes
+        const todoItemFormatter = new TodoItemFormatter();
+        const todoManager = new TodoManager(todoItemFormatter);
+        const uiManager = new UIManager(todoManager, todoItemFormatter);
+        const themes = document.querySelectorAll(".theme-item");
+        const html = document.querySelector("html");
+        const themeSwitcher = new ThemeSwitcher(themes, html);
+
+    </script>
+
+</body>
+
+</html>
+
+</section>
+
+
+
+<div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "twu-international-connect" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+<footer>
+  
+  
+  
+  <div class="footer bg-footer section border-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-sm-8 mb-5 mb-lg-0">
+          
+          <a class="logo-footer" href="/"><img class="img-fluid mb-4" src="https://sharkpan.github.io/images/logo.png" alt="Trinity Western University International Connect"></a>
+          <ul class="list-unstyled">
+            <li class="mb-4">22500 University Dr, Langley Twp, BC V2Y 1Y1</li>
+            <li class="mb-4"><a href="mailto:haoyu.pan@mytwu.ca">haoyu.pan@mytwu.ca</a></li>
+            <li class="mb-4">+1 (236) 862-8718</li>
+          </ul>
+        </div>
+        
+        <div class="col-lg-2 col-sm-4 col-6 mb-5 mb-md-0">
+          <h4 class="text-white mb-5 text-uppercase">More Info</h4>
+          <ul class="list-unstyled">
+            
+            
+            <li class="mb-3"><a class="text-color" href="https://sharkpan.github.io/schoollife/">School Life</a></li>
+            
+            
+            
+            <li class="mb-3"><a class="text-color" href="https://sharkpan.github.io/jobbank/">Job Bank</a></li>
+            
+            
+            
+            
+            
+            <li class="mb-3"><a class="text-color" href="https://sharkpan.github.io/language/">language</a></li>
+            
+            
+            
+            <li class="mb-3"><a class="text-color" href="https://sharkpan.github.io/contact/">Contact</a></li>
+            
+            
+          </ul>
+        </div>
+        
+        <div class="col-lg-2 col-sm-4 col-6 mb-5 mb-md-0">
+          <h4 class="text-white mb-5 text-uppercase"></h4>
+          <ul class="list-unstyled">
+            
+          </ul>
+        </div>
+        
+        <div class="col-lg-2 col-sm-4 col-6 mb-5 mb-md-0">
+          <h4 class="text-white mb-5 text-uppercase"></h4>
+          <ul class="list-unstyled">
+            
+          </ul>
+        </div>
+        
+        <div class="col-lg-2 col-sm-4 col-6 mb-5 mb-md-0">
+          <h4 class="text-white mb-5 text-uppercase"></h4>
+          <ul class="list-unstyled">
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="copyright py-4 bg-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7 text-md-left text-center">
+          <p class="mb-3 mb-md-0"></p>
+        </div>
+        <div class="col-md-5 text-md-right text-center">
+          <ul class="list-inline">
+            
+            <li class="list-inline-item"><a class="d-inline-block p-2" href="https://www.facebook.com/trinitywestern"><i class="ti-facebook text-primary"></i></a></li>
+            
+            <li class="list-inline-item"><a class="d-inline-block p-2" href="https://twitter.com/TrinityWestern"><i class="ti-twitter-alt text-primary"></i></a></li>
+            
+            <li class="list-inline-item"><a class="d-inline-block p-2" href="https://www.instagram.com/trinitywestern"><i class="ti-instagram text-primary"></i></a></li>
+            
+            <li class="list-inline-item"><a class="d-inline-block p-2" href="https://www.linkedin.com/school/trinity-western-university"><i class="ti-linkedin text-primary"></i></a></li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<!-- Google Map API -->
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&amp;libraries=places"></script>
+
+
+<!-- JS Plugins -->
+
+<script src="https://sharkpan.github.io/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://sharkpan.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://sharkpan.github.io/plugins/slick/slick.min.js"></script>
+
+<script src="https://sharkpan.github.io/plugins/venobox/venobox.min.js"></script>
+
+<script src="https://sharkpan.github.io/plugins/filterizr/jquery.filterizr.min.js"></script>
+
+<script src="https://sharkpan.github.io/plugins/google-map/gmap.js"></script>
+
+
+<!-- Main Script -->
+
+<script src="https://sharkpan.github.io/js/script.min.js"></script>
+
+<!-- google analitycs -->
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+<div id="js-cookie-box" class="cookie-box cookie-box-hide">
+	This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button" class="btn btn-sm btn-outline-primary ml-2">I Accept</span>
+</div>
+<script>
+	(function ($) {
+		const cookieBox = document.getElementById('js-cookie-box');
+		const cookieButton = document.getElementById('js-cookie-button');
+		if (!Cookies.get('cookie-box')) {
+			cookieBox.classList.remove('cookie-box-hide');
+			cookieButton.onclick = function () {
+				Cookies.set('cookie-box', true, {
+					expires:  2 
+				});
+				cookieBox.classList.add('cookie-box-hide');
+			};
+		}
+	})(jQuery);
+</script>
+
+
+<style>
+.cookie-box {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  z-index: 9999;
+  padding: 1rem 2rem;
+  background: rgb(71, 71, 71);
+  transition: all .75s cubic-bezier(.19, 1, .22, 1);
+  color: #fdfdfd;
+}
+
+.cookie-box-hide {
+  display: none;
+}
+</style>
+</body>
+
+</html>
