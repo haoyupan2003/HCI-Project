@@ -12,8 +12,6 @@
   </url><url>
     <loc>https://sharkpan.github.io/language/</loc>
   </url><url>
-    <loc>https://sharkpan.github.io/social/event/</loc>
-  </url><url>
     <loc>https://sharkpan.github.io/social/pomodoro/</loc>
   </url><url>
     <loc>https://sharkpan.github.io/schoollife/</loc>
@@ -25,5 +23,7 @@
     <loc>https://sharkpan.github.io/social/todolist/</loc>
   </url><url>
     <loc>https://sharkpan.github.io/</loc>
+  </url><url>
+    <loc>https://sharkpan.github.io/social/event/</loc>
   </url>
 </urlset>

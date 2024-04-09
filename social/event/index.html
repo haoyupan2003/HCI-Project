@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en"><head>
   <meta charset="utf-8">
-  <title>Not Found</title>
+  <title>Upcoming Events</title>
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description"
-    content="Ah oh ~">
+    content="Stay Updated With Campus Events!">
   
   <meta name="author" content="International Student Helper">
   
@@ -165,9 +165,9 @@
         <ul class="list-inline custom-breadcrumb">
           <li class="list-inline-item h2"><a class="text-primary font-secondary" href="/">Home</a></li>
           <li class="list-inline-item h5"><i class="ti-angle-right text-white"></i></li>
-          <li class="list-inline-item text-white h3 font-secondary">Not Found</li>
+          <li class="list-inline-item text-white h3 font-secondary">Upcoming Events</li>
         </ul>
-        <p class="text-lighten">Ah oh ~</p>
+        <p class="text-lighten">Stay Updated With Campus Events!</p>
       </div>
     </div>
   </div>
@@ -182,69 +182,138 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>School Life</title>
-    <style>
-        #display {
-            display: grid;
-            grid-template-rows: 5em 30.1em 3em;
-            grid-template-columns: 1fr 1fr 1fr;
-            grid-template-areas: "header header header header"
-                "footer footer footer footer";
+  <meta charset="UTF-8">
+  <title>Trinity Western University Events</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      background-image: url('images/backgrounds/page-title.jpg');
+    }
 
-        }
+    .events-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
 
-        #picture {
-            position: absolute;
-            margin: 0;
-            top: 10em;
-            left: 8em;
-            overflow: hidden;
-            height: 20em;
-            border-radius: 1em;
-        }
+    .event-container {
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      flex: 0 1 calc(45% - 20px);
+      margin-bottom: 20px;
+      padding: 20px;
+      transition: 0.3s;
+    }
 
-        #picture img {
-            width: 30em;
-        }
+    .event-container:hover {
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
 
-        #info {
-            position: absolute;
-            padding: 3em;
-            top: 13em;
-            left: 40em;
-            overflow: hidden;
-            background-color: rgb(255, 246, 206);
-            border-radius: 1em;
-        }
-    </style>
+    .job-link {
+      text-decoration: none;
+      color: #007bff;
+    }
 
+    .job-link:hover {
+      text-decoration: underline;
+    }
+
+    .pictures {
+      width: 100%;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+
+    hr {
+      border: 0;
+      height: 1px;
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+      margin: 40px 0;
+    }
+
+    .page-body {
+      padding: 5%;
+    }
+  </style>
 </head>
 
 <body>
-    <div id="display">
+  <div class="page-body">
+    <h1>Trinity Western University Events</h1>
 
-        <!--Top Navigation Bar--->
-        <div id="mainBar">
-
-
-
-        </div>
-
-        <div id="picture">
-
-        </div>
-
-        <div id="info">
-            <h2>Site is under construction</h2>
-            <br>
-            We are sorry. The site you are trying to visit has not yet finished.
-
-        </div>
-
-
+    <br />
+    <br />
+    <br />
+    <h3>Chapel Events and Workshops 👈</h3>
+    <hr>
+    <div class="events-wrapper">
+      <div class="event-container">
+        <h5><a class="job-link" href="https://www.twu.ca/news-events/events/chapel-23">Chapel: Sung Worship</a></h5>
+        <p>Sung worship and a message brought by visiting speaker Dr. Rob Rhea at the David E. Enarson Gymnasium on Mon,
+          Apr 8, 2024.</p>
+        <img class="pictures"
+          src="https://www.twu.ca/sites/default/files/styles/landscape_382w_/public/images/2023-02/DSC_5989.jpg?h=78aab1d8&itok=Q-TDQ5Ua"
+          alt="Chapel">
+      </div>
+      <div class="event-container">
+        <h5><a class="job-link" href="https://www.twu.ca/news-events/events/devotion-chapel-0">Devotion Chapel</a></h5>
+        <p>Join us for prayer, engagement in spiritual practices, and sharing together at the David E. Enarson Gymnasium
+          on Tue, Apr 9, 2024.</p>
+        <img class="pictures"
+          src="https://www.twu.ca/sites/default/files/styles/landscape_382w_/public/images/2023-03/CHAP_Devotion%20photos_Nov%202022-2.jpeg?h=4b1810ef&itok=tpL75iaa"
+          alt="Devotion Chapel">
+      </div>
+      <div class="event-container">
+        <h5><a class="job-link" href="https://www.twu.ca/news-events/events/chapel-edtalks">Chapel: EdTalks</a></h5>
+        <p>Sung worship and a message by University chaplain, the Rev. Dr. Ed Gerber at the David E. Enarson Gymnasium
+          on Wed, Apr 10, 2024.</p>
+        <img class="pictures"
+          src="https://www.twu.ca/sites/default/files/styles/landscape_382w_/public/images/2023-09/DSC_5952.jpg?h=9e6c008f&itok=cKnJNvcr"
+          alt="Chapel: EdTalks">
+      </div>
+      <div class="event-container">
+        <h5><a class="job-link" href="https://www.twu.ca/news-events/events/workshop-drop-sessions">Workshop: Drop-in
+            Sessions</a></h5>
+        <p>This workshop, designed for TWU international students, will address immigration concerns in person at the
+          Langley Campus on Wed, Apr 10, 2024.</p>
+        <img class="pictures"
+          src="https://www.twu.ca/sites/default/files/styles/landscape_382w_/public/images/2022-10/sincerely-media-dGxOgeXAXm8-unsplash.jpeg?h=0d27ee61&itok=xBwLPeZV"
+          alt="Workshop: Drop-in Sessions">
+      </div>
     </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <h3>Music and Cultural Events 👈</h3>
+    <hr>
+    <div class="events-wrapper">
+      <div class="event-container">
+        <h5><a class="job-link" href="https://www.twu.ca/news-events/events/jazz-renaissance-night">Jazz + Renaissance
+            Night</a></h5>
+        <p>An eclectic evening of lively instrumental jazz and beautiful Renaissance polyphony featuring SAMC's Jazz
+          Combo and Renaissance Singers at the Music Building on Wed, Apr 10, 2024. Entrance Fee: $5 cash at door.</p>
+        <img class="pictures"
+          src="https://www.twu.ca/sites/default/files/styles/landscape_382w_/public/sites/default/files/jazz.jpg?h=5e08a8b6&itok=zY61I9LS"
+          alt="Jazz + Renaissance Night">
+      </div>
+      <div class="event-container">
+        <h5><a class="job-link" href=" ">Band + Orchestra Concerts</a></h5>
+        <p>TWU’s Concert Band and Orchestra present a colorful evening of music from around the world, including
+          Mendelssohn’s Scottish Symphony, Brahms’s Hungarian Dance No. 5, and Ford’s Royal Canadian. Join us at
+          Shepherd of the Valley Lutheran Church on Fri, Apr 12, 2024, and Peace Lutheran Church on Sat, Apr 13, 2024.
+        </p>
+        <img class="pictures"
+          src="https://www.twu.ca/sites/default/files/styles/landscape_382w_/public/sites/default/files/069-samc-band-orchestra-full.jpg?h=f2fcf546&itok=0RAnWykX"
+          alt="Band + Orchestra Concerts">
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>
